@@ -79,7 +79,7 @@
             overflow: hidden;
         }
         
-        .header-gradient::after {
+        /* .header-gradient::after {
             content: '';
             position: absolute;
             bottom: -20px;
@@ -88,7 +88,7 @@
             height: 40px;
             background: linear-gradient(to top, rgba(249,250,251,1) 0%, rgba(249,250,251,0) 100%);
             z-index: 1;
-        }
+        } */
         
         /* Latar belakang halaman */
         body {
@@ -167,9 +167,9 @@
 </head>
 <body class="min-h-screen flex flex-col" onload="document.body.classList.add('loaded')">
     <header class="header-gradient py-6 text-center shadow-lg relative z-10">
-        <div class="flex items-center justify-center space-x-3 px-4">
-            <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center shadow-lg transform hover:rotate-6 transition-transform duration-300">
-                <img src="https://isitaman.github.io/budidaya-app/icons/favicon-96x96.png" class="w-10 h-10"></img>
+        <div class="flex items-center justify-center space-x-6 px-4">
+            <div class="w-20 h-20 bg-white rounded-xl flex items-center justify-center shadow-lg transform hover:rotate-6 transition-transform duration-300">
+                <img src="https://isitaman.github.io/budidaya-app/icons/favicon-96x96.png" class="w-20 h-20 rounded-xl"></img>
             </div>
             <div>
                 <h1 class="text-2xl md:text-3xl font-bold text-white">Green House Wijaya</h1>
@@ -179,35 +179,35 @@
         </div>
     </header>
     
-    <main class="px-4 py-8 flex-1">
+    <main class="px-4 py-8 flex-1 w-[90%] mx-auto">
         <div class="grid grid-cols-3 gap-5 w-full mx-auto">
             <a href="wijaya/stok_monitoring.html" class="menu-card bg-white rounded-2xl p-5 flex flex-col items-center text-center fade-in" style="animation-delay: 0.1s">
-                <div class="icon-wrapper w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                    <i class="fas fa-boxes-stacked text-blue-600 text-2xl"></i>
+                <div class="icon-wrapper w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mb-4">
+                    <i class="fas fa-boxes-stacked text-emerald-600 text-2xl"></i>
                 </div>
                 <h3 class="text-base font-semibold text-gray-900 mb-1">Stok Monitoring</h3>
                 <p class="text-xs text-gray-500">Cek Stok dan Filter Data Stok</p>
             </a>
 
             <a href="wijaya/penerimaan_barang.html" class="menu-card bg-white rounded-2xl p-5 flex flex-col items-center text-center fade-in" style="animation-delay: 0.1s">
-                <div class="icon-wrapper w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                    <i class="fas fa-tent-arrows-down text-blue-600 text-2xl"></i>
+                <div class="icon-wrapper w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mb-4">
+                    <i class="fas fa-tent-arrows-down text-cyan-600 text-2xl"></i>
                 </div>
                 <h3 class="text-base font-semibold text-gray-900 mb-1">Penerimaan Barang Datang</h3>
                 <p class="text-xs text-gray-500">Penerimaan Barang dari Tumapel dan Kreweh</p>
             </a>
 
-            <a href="wijaya/perpindahan_kondisi.html" class="menu-card bg-white rounded-2xl p-5 flex flex-col items-center text-center fade-in" style="animation-delay: 0.1s">
-                <div class="icon-wrapper w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                    <i class="fas fa-diagram-project text-blue-600 text-2xl"></i>
+            <a href="wijaya/splitting.html" class="menu-card bg-white rounded-2xl p-5 flex flex-col items-center text-center fade-in" style="animation-delay: 0.1s">
+                <div class="icon-wrapper w-16 h-16 bg-fuchsia-100 rounded-full flex items-center justify-center mb-4">
+                    <i class="fas fa-diagram-project text-fuchsia-600 text-2xl"></i>
                 </div>
                 <h3 class="text-base font-semibold text-gray-900 mb-1">Splitting Plant</h3>
                 <p class="text-xs text-gray-500">Input Data hasil Project Split</p>
             </a>
 
-            <a href="wijaya/splitting.html" class="menu-card bg-white rounded-2xl p-5 flex flex-col items-center text-center fade-in" style="animation-delay: 0.1s">
-                <div class="icon-wrapper w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                    <i class="fas fa-share-from-square text-blue-600 text-2xl"></i>
+            <a href="wijaya/perpindahan_kondisi.html" class="menu-card bg-white rounded-2xl p-5 flex flex-col items-center text-center fade-in" style="animation-delay: 0.1s">
+                <div class="icon-wrapper w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                    <i class="fas fa-share-from-square text-amber-600 text-2xl"></i>
                 </div>
                 <h3 class="text-base font-semibold text-gray-900 mb-1">Perpindahan Kondisi Plant</h3>
                 <p class="text-xs text-gray-500">Input data perpindahan kondisi plant</p>
@@ -232,37 +232,37 @@
 
         <div class="grid grid-cols-3 gap-5 mt-5">
             <a href="index.html" class="col-span-2 menu-card bg-white rounded-2xl p-5 flex flex-row items-center text-center fade-in" style="animation-delay: 0.2s">
-                <div class="icon-wrapper w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
-                    <i class="fas fa-home text-purple-600 text-2xl"></i>
+                <div class="icon-wrapper w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center">
+                    <i class="fas fa-home text-slate-600 text-2xl"></i>
                 </div>
                 <h3 class="text-base font-semibold text-gray-900 ml-5">Kembali ke Menu Utama</h3>
                 <!-- <p class="text-xs text-gray-500">Distribusi Barang ke Kebun Lain</p> -->
             </a>
             <a href="wijaya/opname.html" class="col-span-1 menu-card bg-white rounded-2xl p-5 flex flex-row items-center text-center fade-in" style="animation-delay: 0.2s">
-                <div class="icon-wrapper w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
-                    <i class="fas fa-home text-purple-600 text-2xl"></i>
+                <div class="icon-wrapper w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center">
+                    <i class="fas fa-calculator text-orange-600 text-2xl"></i>
                 </div>
                 <h3 class="text-base font-semibold text-gray-900 ml-5">Opname & Penyesuaian</h3>
                 <!-- <p class="text-xs text-gray-500">Distribusi Barang ke Kebun Lain</p> -->
             </a>
         </div>
         
-        <div class="mt-8 text-center">
+        <!-- <div class="mt-8 text-center">
             <div class="inline-block bg-white rounded-full px-4 py-2 shadow-sm">
                 <p class="text-xs text-gray-500">Versi 1.0.0</p>
             </div>
-        </div>
+        </div> -->
     </main>
     
     <!-- Footer yang lebih elegan -->
     <footer class="bg-white py-4 px-4 border-t border-gray-200 text-center">
         <div class="flex items-center justify-center space-x-2 mb-2">
-            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-                <i class="fas fa-seedling text-green-600 text-sm"></i>
+            <div class="w-8 h-8 bg-stone-100 rounded-full flex items-center justify-center">
+                <i class="fas fa-warehouse text-stone-600 text-sm"></i>
             </div>
-            <p class="text-sm font-medium text-gray-700">Budidaya App</p>
+            <p class="text-sm font-medium text-stone-700">Budidaya App</p>
         </div>
-        <p class="text-xs text-gray-500">© 2025 Javina. All rights reserved.</p>
+        <p class="text-xs text-gray-500">© 2025 Javina. All rights reserved.  Versi 2.0.0</p>
     </footer>
 
     <!-- Script untuk PWA dan efek interaktif -->

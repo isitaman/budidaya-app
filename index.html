@@ -79,7 +79,7 @@
             overflow: hidden;
         }
         
-        .header-gradient::after {
+        /* .header-gradient::after {
             content: '';
             position: absolute;
             bottom: -20px;
@@ -88,7 +88,7 @@
             height: 40px;
             background: linear-gradient(to top, rgba(249,250,251,1) 0%, rgba(249,250,251,0) 100%);
             z-index: 1;
-        }
+        } */
         
         /* Latar belakang halaman */
         body {
@@ -167,9 +167,9 @@
 </head>
 <body class="min-h-screen flex flex-col" onload="document.body.classList.add('loaded')">
     <header class="header-gradient py-6 text-center shadow-lg relative z-10">
-        <div class="flex items-center justify-center space-x-3 px-4">
-            <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center shadow-lg transform hover:rotate-6 transition-transform duration-300">
-                <img src="https://isitaman.github.io/budidaya-app/icons/favicon-96x96.png" class="w-10 h-10"></img>
+        <div class="flex items-center justify-center space-x-6 px-4">
+            <div class="w-20 h-20 bg-white rounded-xl flex items-center justify-center shadow-lg transform hover:rotate-6 transition-transform duration-300">
+                <img src="https://isitaman.github.io/budidaya-app/icons/favicon-96x96.png" class="w-20 h-20 rounded-xl"></img>
             </div>
             <div>
                 <h1 class="text-2xl md:text-3xl font-bold text-white">Budidaya App</h1>
@@ -215,22 +215,22 @@
             
         </div>
         
-        <div class="mt-8 text-center">
+        <!-- <div class="mt-8 text-center">
             <div class="inline-block bg-white rounded-full px-4 py-2 shadow-sm">
                 <p class="text-xs text-gray-500">Versi 1.0.0</p>
             </div>
-        </div>
+        </div> -->
     </main>
     
     <!-- Footer yang lebih elegan -->
     <footer class="bg-white py-4 px-4 border-t border-gray-200 text-center">
         <div class="flex items-center justify-center space-x-2 mb-2">
-            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-                <i class="fas fa-leaf text-green-600 text-sm"></i>
+            <div class="w-8 h-8 bg-stone-100 rounded-full flex items-center justify-center">
+                <i class="fas fa-warehouse text-stone-600 text-sm"></i>
             </div>
-            <p class="text-sm font-medium text-gray-700">Budidaya App</p>
+            <p class="text-sm font-medium text-stone-700">Budidaya App</p>
         </div>
-        <p class="text-xs text-gray-500">© 2025 Javina. All rights reserved.</p>
+        <p class="text-xs text-gray-500">© 2025 Javina. All rights reserved.  Versi 2.0.0</p>
     </footer>
 
     <!-- Script untuk PWA dan efek interaktif -->
